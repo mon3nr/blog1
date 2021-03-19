@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mon3nr.github.io/blog1/blog/</loc>
+    <lastmod>2021-03-14T06:11:53+09:00</lastmod>
+  </url><url>
     <loc>https://mon3nr.github.io/blog1/categories/</loc>
+    <lastmod>2021-03-14T06:11:53+09:00</lastmod>
+  </url><url>
+    <loc>https://mon3nr.github.io/blog1/tags/fishing/</loc>
+    <lastmod>2021-03-14T06:11:53+09:00</lastmod>
+  </url><url>
+    <loc>https://mon3nr.github.io/blog1/categories/fishing/</loc>
+    <lastmod>2021-03-14T06:11:53+09:00</lastmod>
+  </url><url>
+    <loc>https://mon3nr.github.io/blog1/tags/kurodai/</loc>
+    <lastmod>2021-03-14T06:11:53+09:00</lastmod>
   </url><url>
     <loc>https://mon3nr.github.io/blog1/tags/</loc>
+    <lastmod>2021-03-14T06:11:53+09:00</lastmod>
+  </url><url>
+    <loc>https://mon3nr.github.io/blog1/blog/onagigawacloverbridge/</loc>
+    <lastmod>2021-03-14T06:11:53+09:00</lastmod>
   </url><url>
     <loc>https://mon3nr.github.io/blog1/</loc>
+    <lastmod>2021-03-14T06:11:53+09:00</lastmod>
   </url>
 </urlset>
