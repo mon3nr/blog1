@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>powerbi on 自転車散歩、釣り記録</title>
+    <link>https://mon3nr.github.io/blog1/tags/powerbi/</link>
+    <description>Recent content in powerbi on 自転車散歩、釣り記録</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 13 May 2021 12:14:57 +0900</lastBuildDate><atom:link href="https://mon3nr.github.io/blog1/tags/powerbi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>横浜フィッシングピアーズ海釣り施設、釣果分析 その２</title>
+      <link>https://mon3nr.github.io/blog1/blog/yfpreserch02/</link>
+      <pubDate>Thu, 13 May 2021 12:14:57 +0900</pubDate>
+      
+      <guid>https://mon3nr.github.io/blog1/blog/yfpreserch02/</guid>
+      <description>前回、横浜フィッシングピアーズ海釣り施設の釣果分析記事を紹介しました。 分析ツールに Python の統計ライブラリを使用し、仮説を立てて検証する方法をとりました。 分析レポートの整備を進めてきましたが、このやり方だと色々と不都合を感じることがありました。 Python 言語でのコーディングがベースの作業となるため、コーディング中にエラーがでたり、 統計ライブラリの API がわからないときはその都度、調査が必要となり、 分析に集中できないことがありました。 Excelの様に直観的に操作でき、より手軽なツールの方が良いのではないかと検討をすすめ、今回、釣果分析プロジェクト 「fising-piers-fan」 に Microsoft の PowerBI を導入しました。 本ツールの利用手順についてまとめます。
+ システム概要  PowerBI とは   セットアップ手順  Python 3 インストール 釣果収集ライブラリセットアップ PowerBIセットアップ   利用手順  釣果収集 PowerBI レポート分析  データの更新 検索条件の指定 レポートの選択 狙い目のマスターデータメンテナンス     まとめ  システム概要 システム全体の構成は以下の通りです。
+  yfp コマンド
+Python のコマンドラインツールで Python ライブラリやデータベースを管理します。 本コマンドを実行して次の Python ライブラリを制御します。
+  piersfan ライブラリ
+Python ライブラリで各海釣り施設のホームページから、釣果情報を収集してデータベースに登録します。</description>
+    </item>
+    
+  </channel>
+</rss>

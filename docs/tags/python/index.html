@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>python | 自転車散歩、釣り記録</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://mon3nr.github.io/blog1/tags/python/" />
+<link href="https://mon3nr.github.io/blog1/assets/css/stylesheet.min.6fdf38588ea13f9fcfd31bf64487e300c670aec39f9ab8cf5473a494b8097993.css" integrity="sha256-b984WI6hP5/P0xv2RIfjAMZwrsOfmrjPVHOklLgJeZM=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://mon3nr.github.io/blog1/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://mon3nr.github.io/blog1/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://mon3nr.github.io/blog1/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://mon3nr.github.io/blog1/apple-touch-icon.png">
+<link rel="mask-icon" href="https://mon3nr.github.io/blog1/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.82.1" />
+<link rel="alternate" type="application/rss&#43;xml" href="https://mon3nr.github.io/blog1/tags/python/index.xml">
+
+
+<meta property="og:title" content="python" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://mon3nr.github.io/blog1/tags/python/" />
+<meta property="og:updated_time" content="2021-05-13T12:14:57+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="python"/>
+<meta name="twitter:description" content=""/>
+
+
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://mon3nr.github.io/blog1/" accesskey="h" title="自転車散歩、釣り記録 (Alt + H)">自転車散歩、釣り記録</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                
+                
+            </span>
+        </div>
+        <ul id="menu" onscroll="menu_on_scroll()"></ul>
+    </nav>
+</header>
+
+    <main class="main"> 
+<header class="page-header">
+
+  <h1>python</h1>
+</header>
+
+
+
+
+
+<article class="post-entry tag-entry"> 
+
+  <header class="entry-header">
+    <h2>
+      横浜フィッシングピアーズ海釣り施設、釣果分析 その２
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>前回、横浜フィッシングピアーズ海釣り施設の釣果分析記事を紹介しました。 分析ツールに Python の統計ライブラリを使用し、仮説を立てて検証する方法をとりました。 分析レポートの整備を進めてきましたが、このやり方だと色々と不都合を感じることがありました。 Python 言語でのコーディングがベースの作業となるため、コーディング中にエラーがでたり、 統計ライブラリの API がわからないときはその都度、調査が必要となり、 分析に集中できないことがありました。 Excelの様に直観的に操作でき、より手軽なツールの方が良いのではないかと検討をすすめ、今回、釣果分析プロジェクト 「fising-piers-fan」 に Microsoft の PowerBI を導入しました。 本ツールの利用手順についてまとめます。
+ システム概要  PowerBI とは   セットアップ手順  Python 3 インストール 釣果収集ライブラリセットアップ PowerBIセットアップ   利用手順  釣果収集 PowerBI レポート分析  データの更新 検索条件の指定 レポートの選択 狙い目のマスターデータメンテナンス     まとめ  システム概要 システム全体の構成は以下の通りです。
+  yfp コマンド
+Python のコマンドラインツールで Python ライブラリやデータベースを管理します。 本コマンドを実行して次の Python ライブラリを制御します。
+  piersfan ライブラリ
+Python ライブラリで各海釣り施設のホームページから、釣果情報を収集してデータベースに登録します。...</p>
+  </section>
+  <footer class="entry-footer">May 13, 2021
+</footer>
+  <a class="entry-link" aria-label="post link to 横浜フィッシングピアーズ海釣り施設、釣果分析 その２" href="https://mon3nr.github.io/blog1/blog/yfpreserch02/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+
+  <header class="entry-header">
+    <h2>
+      横浜フィッシングピアーズ海釣り施設、釣果分析
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>横浜フィッシングピアーズ海釣り施設は、 神奈川県にある本牧、大黒、磯子の3箇所からなる海釣り施設です。
+http://daikoku.yokohama-fishingpiers.jp/
+釣り専用の施設であり、そのポテンシャルの高さから、とても人気があり、 爆釣が期待できる釣り場です。 しかし、前日の釣果情報の調査などの準備をしないと、貧果になるなど釣果にバラツキが出ることがありました。 そこで、事前の釣行準備に拙作の釣果分析ツールが活かせないか、考察したいと思います。
+ 横浜海釣り施設について  特長  水深が深い 潮通しが良く、潮の状態が頻繁に変化する 人気の釣り場なので混む 季節による狙える魚種が変わる 情報が豊富   ここ数年の状況   「fishing-piers-fan」 釣果分析ツール 釣果分析例  シリヤケイカの釣果 平日と休日の釣果の比較 各年度の魚種の釣果サイズ   まとめ  横浜海釣り施設について 特長 釣り場の特長は以下の通りです。
+水深が深い 東京湾の釣り場は水深が浅いところが多いですが、 本施設はアクアラインより以南に位置し、 水深があるので居着きの魚が多くいます。 桟橋が設置されており、足元から水深は深く、 大黒の場合は足元で 7.5 m の深さになります。 また、水中に漁礁が設置され、カケアガリもあるので、狙えるポイントが多くあります。 水深があるので魚種が豊富で、サビキ、ルアー、投げ、落とし込み、穴釣りなど様々な 釣りが楽しめます。
+潮通しが良く、潮の状態が頻繁に変化する 潮通しが良いためアジ、イワシなどの回遊魚が良く釣れます。また、浅瀬が多い東京湾の特徴ですが、 好天が続いたり、雨、風が強い日やその翌日などは、潮流の影響を受け、 澄み潮、濁り潮や、濁ったときの赤潮、青潮などが発生します。 アジなどの魚は濁り潮が良いとされており、澄み潮の時はあまり釣れません。 事前の釣果情報で潮の変化、現地の潮の状態を観察し、釣行プランを立てることが重要になります。
+人気の釣り場なので混む デメリットになることが多いですが、その中でも、釣果を上げている上手な釣り人を見かけることがあります。うまい人を観察することで釣れる仕掛け、ポイントなどヒントを得ることができます。 また、混雑度によって釣果が上がる、下がる魚種があり、これらはこの後の釣果分析で記します。
+季節による狙える魚種が変わる 季節ごとに人気のある釣りものは以下です。
+ 3-5月のクロダイ乗っ込み 4-6月のシリヤケイカ 7-8月のイシモチ、マゴチ 秋から初冬にかけての大型アジ、回遊魚 冬のタコ、カレイ  過去の釣果情報が重要で、事前に狙う魚種を絞って釣行を計画することで釣果を出しやすくなります。
+情報が豊富 施設ホームページに釣果情報が日々更新されています。 また、攻略法などのブログが多数あり、日本の釣り場の中ではトップクラスの情報量で、質、量ともに充実しています。 その中でも参考にさせてもらった記事は以下です。...</p>
+  </section>
+  <footer class="entry-footer">April 25, 2021
+</footer>
+  <a class="entry-link" aria-label="post link to 横浜フィッシングピアーズ海釣り施設、釣果分析" href="https://mon3nr.github.io/blog1/blog/yfpreserch01/"></a>
+</article>
+
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://mon3nr.github.io/blog1/">自転車散歩、釣り記録</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+
+</body>
+
+</html>

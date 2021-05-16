@@ -1,7 +1,7 @@
 ---
 title: "横浜フィッシングピアーズ海釣り施設、釣果分析"
 date: 2021-04-25T14:57:39+09:00
-tags: [ Aji, KuroDai, fishing ]
+tags: [ Aji, KuroDai, fishing, python]
 categories: [ fishing ]
 draft: false
 ---

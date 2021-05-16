@@ -1,8 +1,8 @@
 ---
 title: "横浜フィッシングピアーズ海釣り施設、釣果分析 その２"
 date: 2021-05-13T12:14:57+09:00
-tags: [ fishing ]
-categories: [ fishing ]
+tags: [ fishing, powerbi, python ]
+categories: [ fishing]
 
 draft: false
 ---
