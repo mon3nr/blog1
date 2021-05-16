@@ -29,7 +29,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://mon3nr.github.io/blog1/categories/fishing/" />
-<meta property="og:updated_time" content="2021-04-25T14:57:39+09:00" />
+<meta property="og:updated_time" content="2021-05-13T12:14:57+09:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="fishing"/>
 <meta name="twitter:description" content=""/>
@@ -105,6 +105,26 @@
 
   <header class="entry-header">
     <h2>
+      横浜フィッシングピアーズ海釣り施設、釣果分析 その２
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>前回、横浜フィッシングピアーズ海釣り施設の釣果分析記事を紹介しました。 分析ツールに Python の統計ライブラリを使用し、仮説を立てて検証する方法をとりました。 分析レポートの整備を進めてきましたが、このやり方だと色々と不都合を感じることがありました。 Python 言語でのコーディングがベースの作業となるため、コーディング中にエラーがでたり、 統計ライブラリの API がわからないときはその都度、調査が必要となり、 分析に集中できないことがありました。 Excelの様に直観的に操作でき、より手軽なツールの方が良いのではないかと検討をすすめ、今回、釣果分析プロジェクト 「fising-piers-fan」 に Microsoft の PowerBI を導入しました。 本ツールの利用手順についてまとめます。
+ システム概要  PowerBI とは   セットアップ手順  Python 3 インストール 釣果収集ライブラリセットアップ PowerBIセットアップ   利用手順  釣果収集 PowerBI レポート分析  データの更新 検索条件の指定 レポートの選択 狙い目のマスターデータメンテナンス     まとめ  システム概要 システム全体の構成は以下の通りです。
+  yfp コマンド
+Python のコマンドラインツールで Python ライブラリやデータベースを管理します。 本コマンドを実行して次の Python ライブラリを制御します。
+  piersfan ライブラリ
+Python ライブラリで各海釣り施設のホームページから、釣果情報を収集してデータベースに登録します。...</p>
+  </section>
+  <footer class="entry-footer">May 13, 2021
+</footer>
+  <a class="entry-link" aria-label="post link to 横浜フィッシングピアーズ海釣り施設、釣果分析 その２" href="https://mon3nr.github.io/blog1/blog/yfpreserch02/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+
+  <header class="entry-header">
+    <h2>
       横浜フィッシングピアーズ海釣り施設、釣果分析
     </h2>
   </header>
@@ -117,7 +137,7 @@ http://daikoku.yokohama-fishingpiers.jp/
 潮通しが良く、潮の状態が頻繁に変化する 潮通しが良いためアジ、イワシなどの回遊魚が良く釣れます。また、浅瀬が多い東京湾の特徴ですが、 好天が続いたり、雨、風が強い日やその翌日などは、潮流の影響を受け、 澄み潮、濁り潮や、濁ったときの赤潮、青潮などが発生します。 アジなどの魚は濁り潮が良いとされており、澄み潮の時はあまり釣れません。 事前の釣果情報で潮の変化、現地の潮の状態を観察し、釣行プランを立てることが重要になります。
 人気の釣り場なので混む デメリットになることが多いですが、その中でも、釣果を上げている上手な釣り人を見かけることがあります。うまい人を観察することで釣れる仕掛け、ポイントなどヒントを得ることができます。 また、混雑度によって釣果が上がる、下がる魚種があり、これらはこの後の釣果分析で記します。
 季節による狙える魚種が変わる 季節ごとに人気のある釣りものは以下です。
- 3-5月のクロダイ乗っ込み 4-6月のシリヤケイカ 7-8月のイシモチ、マゴチ 秋から初冬にかけての大型アジ、回遊魚 冬のタコ、カレイ  過去の釣果情報が重要で、事前に狙う魚種を絞って釣行を計画するとで釣果を出しやすくなります。
+ 3-5月のクロダイ乗っ込み 4-6月のシリヤケイカ 7-8月のイシモチ、マゴチ 秋から初冬にかけての大型アジ、回遊魚 冬のタコ、カレイ  過去の釣果情報が重要で、事前に狙う魚種を絞って釣行を計画することで釣果を出しやすくなります。
 情報が豊富 施設ホームページに釣果情報が日々更新されています。 また、攻略法などのブログが多数あり、日本の釣り場の中ではトップクラスの情報量で、質、量ともに充実しています。 その中でも参考にさせてもらった記事は以下です。...</p>
   </section>
   <footer class="entry-footer">April 25, 2021
