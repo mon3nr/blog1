@@ -6,7 +6,23 @@
     <description>Recent content in fishing on 自転車散歩、釣り記録</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 12 Sep 2021 10:09:45 +0900</lastBuildDate><atom:link href="https://mon3nr.github.io/blog1/tags/fishing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Oct 2021 08:58:47 +0900</lastBuildDate><atom:link href="https://mon3nr.github.io/blog1/tags/fishing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>東京ウナギ釣りポイント調査編</title>
+      <link>https://mon3nr.github.io/blog1/blog/tokyounagipointreserch/</link>
+      <pubDate>Sun, 24 Oct 2021 08:58:47 +0900</pubDate>
+      
+      <guid>https://mon3nr.github.io/blog1/blog/tokyounagipointreserch/</guid>
+      <description>今夏からウナギ釣りを始めました。 ブッコミ釣りの仕掛けを投げて待つだけの、テクニックはあまりいらない 比較的簡単な釣り方でしたが、都心の身近な河川で釣果を得ることができました。 しかし、釣り場を探すのはとても大変でした。 東京は開削した河川が多く流れており、釣り場 は上流から下流まで広範囲にわたり、何処で釣れるか／釣るかを探す必要ありました。 SNSの釣果情報からポイントを探して、現場調査（釣行）を繰り返しました。 その結果、9月に 60cm の良型 2 匹を掛けることができました。
+本記事ではSNS釣果情報からウナギ釣りの分析をした結果をまとめます。 実釣記録については改めて報告します。
+ ウナギ釣りポイント探し ウナギ釣り掲示板の釣果分析  掲示板記事をCSVに変換する 抽出語の分析 「釣れる」、「釣れない」ポイントの分析 「釣れる」関連語の分析   現地調査  中川、平和橋 新中川 江戸川、なぎさ公園   まとめ  ウナギ釣りポイント探し 釣り専用SNSサイト Anglers などの 釣果情報から、東京近郊の河川で広範囲にウナギが釣れています。 これらの河川は、開削された人工河川が多く、それぞれの河川で護岸の形状に特徴があります。 これら河川で狙うポイントは、 以下の「ウナギの隠れることができる障害物が多い場所を探る」 ことです。
+ アシ原、水草などが水生植物が生えている場所 橋脚、水門、船着き場などの付近で潮流に変化が出やすい場所 ゴロタ石などのガレ場  Anglers 釣果情報からウナギが釣れるポイントを検索し、Googleマップ で付近の河川の形状を探りました。
+また、ブログなどにもウナギ釣りに関する情報が多くあり、 その中でも特に記事が豊富でまとまったサイトとして、 関東ウナギ釣り掲示板 がありました。
+今回、本掲示板からウナギが「釣れる」ポイントを分析した結果を記します。
+ウナギ釣り掲示板の釣果分析 掲示板記事をCSVに変換する hazebbs.com の釣り掲示板には以下の4つの関東周辺のウナギ釣りの掲示板がありました。
+ 関東ウナギ釣り  http://hazebbs.com/bbs3/unagi/html/log/1211857869.html   関東ウナギ釣り(その2)  http://hazebbs.com/bbs3/unagi/html/log/1279840340.html   関東ウナギ釣り(その3)  http://hazebbs.</description>
+    </item>
+    
     <item>
       <title>若洲堤防ヘチ釣り</title>
       <link>https://mon3nr.github.io/blog1/blog/wakasuhechireserch/</link>
