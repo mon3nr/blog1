@@ -1,5 +1,5 @@
 ---
-title: "大黒ブッコミサビキアジ釣り"
+title: "大黒ブッコミサビキ、アジ釣り"
 date: 2021-12-23T19:42:10+09:00
 tags: [ Aji, fishing]
 categories: [ fishing ]
