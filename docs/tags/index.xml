@@ -6,11 +6,20 @@
     <description>Recent content in Tags on 自転車散歩、釣り記録</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 06 Nov 2021 11:40:42 +0900</lastBuildDate><atom:link href="https://mon3nr.github.io/blog1/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 19:42:10 +0900</lastBuildDate><atom:link href="https://mon3nr.github.io/blog1/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aji</title>
+      <link>https://mon3nr.github.io/blog1/tags/aji/</link>
+      <pubDate>Thu, 23 Dec 2021 19:42:10 +0900</pubDate>
+      
+      <guid>https://mon3nr.github.io/blog1/tags/aji/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>fishing</title>
       <link>https://mon3nr.github.io/blog1/tags/fishing/</link>
-      <pubDate>Sat, 06 Nov 2021 11:40:42 +0900</pubDate>
+      <pubDate>Thu, 23 Dec 2021 19:42:10 +0900</pubDate>
       
       <guid>https://mon3nr.github.io/blog1/tags/fishing/</guid>
       <description></description>
@@ -76,15 +85,6 @@
       <pubDate>Thu, 13 May 2021 12:14:57 +0900</pubDate>
       
       <guid>https://mon3nr.github.io/blog1/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aji</title>
-      <link>https://mon3nr.github.io/blog1/tags/aji/</link>
-      <pubDate>Sun, 25 Apr 2021 14:57:39 +0900</pubDate>
-      
-      <guid>https://mon3nr.github.io/blog1/tags/aji/</guid>
       <description></description>
     </item>
     
